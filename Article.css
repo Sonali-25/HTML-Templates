@@ -1,0 +1,83 @@
+ body{
+    padding: 20px;
+    font-family: sans-serif;
+}
+
+.headerContainer{
+    background-color: rgb(8, 8, 8);
+    color: white;
+    align-content: center;
+    display: flex;
+    flex-flow: column wrap;
+    padding: 10px;
+    font-weight: bolder;
+    height: 50px;
+    font-size: 40px;
+    border-radius: 10px;
+    text-transform: capitalize;
+    letter-spacing: 5px;
+}
+
+.footerContainer{
+    background-color: rgb(19, 20, 19);
+    align-content: center;
+    color: aliceblue;
+    display: flex;
+    flex-flow: column wrap;
+    padding: 10px;
+    font-weight: bolder;
+    border-radius: 10px;
+    letter-spacing: 5px;
+}
+
+.mainContainer{
+    display: flex;
+    flex-flow: row wrap;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.mainContentItem{
+    text-align: left;
+    background-color: rgb(18, 206, 149);
+    flex: 3 0px ;
+    order: 2;
+    border-radius: 10px;
+}
+h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: aliceblue;
+    background-color: black;
+    letter-spacing: 5px;
+    border-radius: 5px;
+}
+
+article{
+    margin: 10px;
+    padding: 10px;
+    background: rgb(139, 230, 112);
+    border-radius: 5px;
+}
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.sidebarLeftItem{
+    background-color: rgb(124, 123, 116);
+    order: 1;
+    border-radius: 10px;
+}
+
+.sidebarRightItem{
+    background-color: rgb(124, 123, 116);
+    order: 3;
+    border-radius: 10px;
+}
+
+.sidebarItem{
+    flex: 1 0 0;
+    border: 0px solid green;
+}
